@@ -8,6 +8,9 @@
     <h1>
       Hi!
       <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="wave" width="30px">
+      <img src="https://komarev.com/ghpvc/?username=Azrofyi&style=flat-square&color=blue" alt="me"/>
     </h1>
-    <img src="https://komarev.com/ghpvc/?username=Azrofyi&style=flat-square&color=blue" alt="me"/>
+</div>
+<div align="center">
+  <img src="https://media.giphy.com/media/ZDTbix65Me1YDNLDF3/giphy.gif" width="600" height="300"/>
 </div>
