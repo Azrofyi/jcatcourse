@@ -1,0 +1,20 @@
+.notif-box__btn {
+  border: none;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 1rem 2rem;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-right: 10px;
+}
+.notif-box__btn_dark {
+  color: #fff;
+  background-color: black;
+}
+.notif-box__btn_light {
+  color: #5c5f62;
+  background-color: #ededed;
+}

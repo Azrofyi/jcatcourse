@@ -1,0 +1,50 @@
+.notif-box__switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 20px;
+}
+.notif-box__switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.notif-box__slider_round {
+  position: absolute;
+  border-radius: 34px;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.notif-box__slider_round:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 2.4px;
+  bottom: 2.4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .notif-box__slider_round {
+  background-color: #6f47eb;
+}
+
+input:focus + .notif-box__slider_round {
+  box-shadow: 0 0 1px #6f47eb;
+}
+
+input:checked + .notif-box__slider_round:before {
+  -webkit-transform: translateX(11px);
+  -ms-transform: translateX(11px);
+  transform: translateX(11px);
+}
