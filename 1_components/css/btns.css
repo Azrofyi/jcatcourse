@@ -3,11 +3,11 @@
   text-decoration: none;
   border-radius: 6px;
   padding: 1rem 2rem;
+  height: 38px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   cursor: pointer;
   font-weight: 600;
   font-size: 1.4rem;
-  line-height: 1.8rem;
   margin-right: 10px;
 }
 .notif-box__btn_dark {
@@ -17,4 +17,22 @@
 .notif-box__btn_light {
   color: #5c5f62;
   background-color: #ededed;
+}
+
+.notif-box__btn_pink {
+  color: #6f47eb;
+  background-color: #eee9fd;
+  margin-right: 0;
+}
+
+.notif-box__btn_active {
+  color: #5c5f62;
+  background-color: #ededed;
+}
+
+.notif-box__btn_transp {
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  font-weight: 500;
+  color: #5c5f62;
 }

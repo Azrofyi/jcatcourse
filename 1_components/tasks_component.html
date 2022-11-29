@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tasks</title>
+    <link rel="stylesheet" href="css/styletasks.css" />
+  </head>
+  <body>
+    <div class="tasks-box">
+      <div class="tasks-box__header">
+        <div class="tasks-box__text">
+          <h2 class="tasks-box__title">Tasks Priorities</h2>
+          <p class="tasks-box__describ">Team tasks sorted by priority</p>
+        </div>
+        <button class="notif-box__btn notif-box__btn_pink">
+          <img class="box__btn_icon" src="./icons/plus.svg" alt=">" />
+          Tasks
+        </button>
+      </div>
+      <div class="tasks-box__tabs">
+        <button class="notif-box__btn notif-box__btn_active">Upcoming</button>
+        <button class="notif-box__btn notif-box__btn_transp">Overdue</button>
+        <button class="notif-box__btn notif-box__btn_transp">Completed</button>
+      </div>
+      <div class="tasks-box__tasks">
+        <label class="tasks-box__checkbox">
+          <input type="checkbox" />
+        </label>
+        <div class="tasks-box__task">
+          <h class="tasks-box__task-name"></h>
+          <div class="tasks-box__task-tags">DATE</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
