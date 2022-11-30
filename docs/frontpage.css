@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.component-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10%;
+}
+
+.component-redirect {
+  text-decoration: none;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 4px;
+  font-size: 20px;
+  color: black;
+}
