@@ -72,3 +72,7 @@ html {
   color: #5c5f62;
   min-width: 60%;
 }
+
+.notif-box__btns {
+  display: flex;
+}
