@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
-@import "./btns.css";
+@import "../common/btns.css";
+@import "../common/checkbox.css";
 
 * {
   margin: 0;
@@ -50,4 +51,63 @@ html {
   display: flex;
   justify-content: flex-start;
   margin-top: 16px;
+}
+
+.tasks-box__tasks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 68px;
+}
+.tasks-box__task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 460px;
+}
+
+.tasks-box__task-name {
+  width: 380px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -0.01em;
+}
+
+.tasks-box__dots {
+  width: 20px;
+  height: 4px;
+}
+
+.tasks-box__task-tags {
+  display: flex;
+  margin-left: 50px;
+}
+.date {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.tag {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.date__img {
+  margin-right: 14px;
+}
+
+.tag__img {
+  margin-right: 14px;
+}
+
+.date__text {
+  margin-right: 16px;
+}
+
+.tag__text {
+  margin-right: 16px;
 }

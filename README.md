@@ -12,5 +12,6 @@
     </h1>
 </div>
 <div align="center">
+  ### Компоненты [GITHUB PAGES](https://azrofyi.github.io/jcatcourse/)
   <img src="https://media.giphy.com/media/ZDTbix65Me1YDNLDF3/giphy.gif" width="600" height="300"/>
 </div>

@@ -4,11 +4,14 @@
   border-radius: 6px;
   padding: 1rem 2rem;
   height: 38px;
+  min-width: 88px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   cursor: pointer;
   font-weight: 600;
   font-size: 1.4rem;
   margin-right: 10px;
+  display: flex;
+  align-items: center;
 }
 .notif-box__btn_dark {
   color: #fff;

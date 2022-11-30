@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
-@import "./slider.css";
-@import "./btns.css";
+@import "../common/slider.css";
+@import "../common/btns.css";
 
 * {
   margin: 0;
