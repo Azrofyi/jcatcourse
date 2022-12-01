@@ -1,0 +1,16 @@
+/* USE SPAN */
+
+.dots-menu {
+  width: 2rem;
+  background-color: transparent;
+  display: flex;
+  cursor: pointer;
+}
+
+.dots-menu span {
+  border-radius: 50%;
+  background-color: #5c5f62;
+  margin: 0.1rem;
+  width: 0.4rem;
+  height: 0.4rem;
+}

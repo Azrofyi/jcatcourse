@@ -1,0 +1,27 @@
+/* USE SPAN */
+
+.plus-btn {
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: transparent;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.plus-btn_hor {
+  background-color: #5c5f62;
+  width: 1.4rem;
+  height: 0.35rem;
+  position: absolute;
+  top: calc(1.05rem / 2);
+  border-radius: 0.2rem;
+}
+.plus-btn_vert {
+  background-color: #5c5f62;
+  width: 0.35rem;
+  height: 1.4rem;
+  position: absolute;
+  left: calc(1.05rem / 2);
+  border-radius: 0.2rem;
+}
