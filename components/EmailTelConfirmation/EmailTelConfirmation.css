@@ -1,0 +1,25 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+/*==================== CSS FILES ====================*/
+@import "../common/reset.css";
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+  /*========== Colors ==========*/
+  --purp-color: #6f47eb;
+  --text-color: #000000;
+  --text-color-grey: #5c5f62;
+}
+
+/*==================== BASE ====================*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
