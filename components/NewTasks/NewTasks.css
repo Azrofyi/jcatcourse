@@ -4,6 +4,7 @@
 @import "../common/reset.css";
 @import "../common/dotsmenu.css";
 @import "../common/plusbtn.css";
+@import "../common/checkboxnew.css";
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -29,11 +30,17 @@ html {
 .newtask {
   margin: 5% auto;
   width: 52rem;
-  background-color: #ffffff;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
-  border: 0.06rem solid rgba(0, 0, 0, 0.18); /* TEMP */
+  /* border: 0.06rem solid rgba(0, 0, 0, 0.18); TEMP */
 }
+
+.mgb {
+  margin-bottom: 1.2rem;
+}
+
+/*==================== HEADER ====================*/
 
 .newtask-manager {
   width: 52rem;
@@ -60,4 +67,50 @@ html {
   content: url(../../assets/icons/vector.svg);
   position: absolute;
   left: -2rem;
+}
+
+/*==================== MAIN ====================*/
+
+.newtask-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.newtask-content__task {
+  width: 52rem;
+  height: 7rem;
+  border-radius: 0.8rem;
+  background-color: white;
+  position: relative;
+  padding: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
+.newtask-content__label {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--text-color);
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+  min-width: 46rem;
+}
+
+.newtask-content__timeline {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--text-color-grey);
+  margin-left: 5.2rem;
+  min-width: 10rem;
+  position: relative;
+}
+
+.newtask-content__timeline::before {
+  content: url(../../assets/icons/pers1.png);
+  position: absolute;
+  left: -2rem;
+  top: -0.2rem;
 }
