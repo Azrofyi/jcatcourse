@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
-@import "../common/btns.css";
-@import "../common/checkbox.css";
+@import "./btns.css";
+@import "./checkbox.css";
 
 * {
   margin: 0;

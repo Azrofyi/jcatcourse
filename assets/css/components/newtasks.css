@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 /*==================== CSS FILES ====================*/
 @import "../common/reset.css";
-@import "../common/dotsmenu.css";
-@import "../common/plusbtn.css";
-@import "../common/checkboxnew.css";
+@import "./dotsmenu.css";
+@import "./plusbtn.css";
+@import "./checkboxnew.css";
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -64,7 +64,7 @@ html {
 }
 
 .newtask-title::before {
-  content: url(../../assets/icons/vector.svg);
+  content: url(../../imgs/components/vector.svg);
   position: absolute;
   left: -2rem;
 }
@@ -109,7 +109,7 @@ html {
 }
 
 .newtask-content__timeline::before {
-  content: url(../../assets/icons/pers1.png);
+  content: url(../../imgs/components/pers1.png);
   position: absolute;
   left: -2rem;
   top: -0.2rem;
