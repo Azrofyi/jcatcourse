@@ -64,7 +64,7 @@ html {
 }
 
 .newtask-title::before {
-  content: url(../../imgs/components/vector.svg);
+  content: url(../../img/components/vector.svg);
   position: absolute;
   left: -2rem;
 }
@@ -109,7 +109,7 @@ html {
 }
 
 .newtask-content__timeline::before {
-  content: url(../../imgs/components/pers1.png);
+  content: url(../../img/components/pers1.png);
   position: absolute;
   left: -2rem;
   top: -0.2rem;
