@@ -23,12 +23,58 @@
     <!--==================== WRAPPER ====================-->
     <div class="wrapper">
       <!--==================== HEADER ====================-->
-      <header class="header" id="header"></header>
+      <header
+        class="header d-flex justify-content-between"
+        id="header"
+      >
+        <img
+          src="../assets/img/landing/etslogo.svg"
+          alt="logo"
+          class="header__logo"
+        />
+        <div class="header__btns d-flex justify-content-between">
+          <button class="header__login-btn header__login-btn_text">
+            Log in
+          </button>
+          <button class="header__signup-btn header__signup-btn_text">
+            Sign up
+          </button>
+        </div>
+      </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
         <!--==================== SHOP NOW ====================-->
-        <section></section>
+        <section class="shopnow d-flex flex-column">
+          <div class="shopnow-h1">
+            <h1 class="shopnow-h1_transform">Fun to care,</h1>
+            <img
+              src="../assets/img/landing/rectangle.svg"
+              alt="rectangle"
+              class="shopnow-rectangle"
+            />
+          </div>
+          <h2 class="shopnow-h2 shopnow-h2_pos">Comfy Feel</h2>
+          <p class="shopnow-text mb-5">
+            Mauris aliquet enim quis odio lacinia, id viverra elit
+            convallis. Nunc nulla massa elit
+          </p>
+          <button class="shopnow-btn shopnow-btn_text">
+            SHOP NOW
+          </button>
+          <div class="shopnow-imgs">
+            <img
+              src="../assets/img/landing/vector.svg"
+              alt="vector"
+              class="shopnow-imgs__vector"
+            />
+            <img
+              src="../assets/img/landing/2boys.png"
+              alt="boys"
+              class="shopnow-imgs__boys"
+            />
+          </div>
+        </section>
 
         <!--==================== TOP PICKS ====================-->
         <section></section>
@@ -39,8 +85,8 @@
         <!--==================== OUR OFFERS ====================-->
         <section></section>
       </main>
-      <!--==================== FOOTER ====================-->
-      <footer class="footer"></footer>
     </div>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
   </body>
 </html>

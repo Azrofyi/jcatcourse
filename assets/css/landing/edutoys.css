@@ -3,6 +3,7 @@
 
 /*==================== CSS FILES ====================*/
 @import "../common/reset.css";
+@import "../common/bootstrap-grid.css";
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -41,7 +42,7 @@
 
   /*========== Font and typography ==========*/
   /*1rem = 10px (look into html tag)*/
-  --ptimary-font: "Inter", Arial, Helvetica, sans-serif;
+  --primary-font: "Inter", Arial, Helvetica, sans-serif;
   --secondary-font: "Nunito", Arial, Helvetica, sans-serif;
 }
 
@@ -59,11 +60,149 @@ html {
 
 /*=============== WRAPPER ===============*/
 .wrapper {
-  width: 144rem;
+  width: 122rem;
   margin: 0 auto;
 }
+
 /*=============== HEADER ===============*/
+.header {
+  margin-top: 4rem;
+}
+
+.header__btns {
+  width: 19rem;
+  height: 4.4rem;
+}
+
+.header__login-btn {
+  width: 8.3rem;
+  height: 4.4rem;
+  cursor: pointer;
+  padding: 1rem 1.8rem;
+}
+
+.header__login-btn_text {
+  color: var(--textslategray-color);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+}
+
+.header__login-btn_text:hover {
+  background-color: #f9fafb;
+}
+
+.header__signup-btn {
+  width: 9.4rem;
+  height: 4.4rem;
+  cursor: pointer;
+  padding: 1rem 1.8rem;
+  background-color: var(--btn-color1);
+  border: 0.1rem solid #7f56d9;
+  box-shadow: 0rem 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+  border-radius: 0.8rem;
+}
+
+.header__signup-btn_text {
+  color: white;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1.6rem;
+  white-space: nowrap;
+}
+
+.header__signup-btn_text:hover {
+  background-color: #6744b2;
+}
+
 /*=============== SHOP NOW ===============*/
+.shopnow {
+  position: relative;
+  margin-top: 14.4rem;
+  margin-left: 21.4rem;
+}
+
+.shopnow-h1 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 6.4rem;
+  color: var(--lightpink-color);
+  position: relative;
+}
+
+.shopnow-h1_transform {
+  width: 35rem;
+  transform: rotate(-8.72deg);
+}
+
+.shopnow-rectangle {
+  position: absolute;
+  transform: none;
+  top: 0;
+  left: 0;
+}
+
+.shopnow-h2 {
+  font-family: var(--secondary-font);
+  font-weight: 900;
+  font-size: 6.4rem;
+  color: var(--orange-color);
+  width: 42rem;
+}
+
+.shopnow-h2_pos {
+  padding-left: 7.3rem;
+  margin-top: 4.6rem;
+  margin-bottom: 5.3rem;
+}
+
+.shopnow-text {
+  width: 39rem;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 2rem;
+  color: var(--gray-color);
+}
+
+.shopnow-btn {
+  width: 15.7rem;
+  height: 6rem;
+  cursor: pointer;
+  padding: 1.6rem 2.8rem;
+  background-color: var(--lightpink-color);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.shopnow-btn_text {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.shopnow-btn:hover {
+  background-color: hsla(335, 100%, 40%, 1);
+}
+
+.shopnow-imgs {
+  max-width: 80rem;
+}
+
+.shopnow-imgs__vector {
+  position: absolute;
+  left: 67.2rem;
+  top: 4.6rem;
+  z-index: 1;
+}
+
+.shopnow-imgs__boys {
+  position: absolute;
+  left: 39.3rem;
+  top: 4.6rem;
+  z-index: 2;
+}
 /*=============== TOP PICKS ===============*/
 /*=============== TRENDING PRODUCTS ===============*/
 /*=============== OUR OFFERS ===============*/
