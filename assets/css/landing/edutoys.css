@@ -1,0 +1,70 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@500;700;900&display=swap");
+
+/*==================== CSS FILES ====================*/
+@import "../common/reset.css";
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness, alpha)*/
+  --lightpink-color: hsla(335, 100%, 54%, 1);
+  --orange-color: hsla(36, 96%, 57%, 1);
+  --twilight-color: hsla(241, 87%, 75%, 1);
+  --turquoise-color: hsla(173, 79%, 41%, 1);
+  --gray-color: hsla(0, 0%, 58%, 1);
+
+  /*Color mode HEX*/
+  --textdark-color: #101828;
+  --textslategray-color: #667085;
+  --textlightslategray-color: #98a2b3;
+
+  /*Buttons Colors*/
+
+  --btn-color1: hsla(259, 63%, 59%, 1);
+  --btn-color2: hsla(335, 100%, 54%, 1);
+  --btn-color3: hsla(105, 84%, 46%, 1);
+  --btn-color4: hsla(360, 85%, 48%, 1);
+  --btn-color5: hsla(196, 100%, 46%, 1);
+  --btn-color6: hsla(177, 58%, 49%, 1);
+
+  /*Buttons Colors*/
+  --bg-color1: #faf6f9;
+  --bg-color2: #f9fafb;
+  --bg-color3: #fff8ef;
+  --bg-color4: #f6f7ff;
+  --bg-color5: #f6fefe;
+
+  /*Borders Colors*/
+  --border-color1: hsla(220, 22%, 96%, 1);
+  --border-color2: hsla(0, 0%, 78%, 1);
+
+  /*========== Font and typography ==========*/
+  /*1rem = 10px (look into html tag)*/
+  --ptimary-font: "Inter", Arial, Helvetica, sans-serif;
+  --secondary-font: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+/*=============== WRAPPER ===============*/
+.wrapper {
+  width: 144rem;
+  margin: 0 auto;
+}
+/*=============== HEADER ===============*/
+/*=============== SHOP NOW ===============*/
+/*=============== TOP PICKS ===============*/
+/*=============== TRENDING PRODUCTS ===============*/
+/*=============== OUR OFFERS ===============*/
+/*=============== FOOTER ===============*/
