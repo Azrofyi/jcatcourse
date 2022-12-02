@@ -12,6 +12,6 @@
     </h1>
 </div>
 <div align="center">
-  <h2>Компоненты <a href="https://azrofyi.github.io/jcatcourse/">&#10140;Click Me</a></h2>
+  <h2>Навигация по проектам<a href="https://azrofyi.github.io/jcatcourse/" target="_blank">&#10140;Click Me</a></h2>
   <img src="https://media.giphy.com/media/ZDTbix65Me1YDNLDF3/giphy.gif" width="600" height="300"/>
 </div>
