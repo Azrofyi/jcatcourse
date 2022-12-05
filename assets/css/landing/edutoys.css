@@ -59,6 +59,10 @@ html {
   position: relative;
 }
 
+.mb-5rem {
+  margin-bottom: 5rem;
+}
+
 /*=============== WRAPPER ===============*/
 .wrapper {
   width: 144rem;
@@ -124,7 +128,7 @@ html {
 /*=============== SHOP NOW ===============*/
 .shopnow {
   padding-top: 14.4rem;
-  padding-left: 32.4rem;
+  padding-left: 21.4rem;
   height: 60rem;
 }
 
@@ -197,7 +201,7 @@ html {
 .shopnow-imgs__vector {
   position: absolute;
   width: 56rem;
-  left: 98.8rem;
+  left: 87.8rem;
   top: 10.6rem;
   z-index: -2;
 }
@@ -206,7 +210,7 @@ html {
   position: absolute;
   width: 79rem;
   height: 51.7rem;
-  left: 67.7rem;
+  left: 56.7rem;
   top: 15.6rem;
   z-index: -1;
 }
@@ -369,10 +373,45 @@ html {
 }
 
 .trend-prods__btn_nonactive:hover {
-  background-color: hsla(196, 100%, 40%, 1);
+  background-color: hsla(196, 100%, 48%, 1);
   box-shadow: 0rem 0.1rem 0.3rem rgba(16, 24, 40, 0.1),
     0rem 0.1rem 0.2rem rgba(16, 24, 40, 0.06);
   color: white;
+}
+
+.trend-prods__sale-prod {
+  width: 28.9rem;
+  height: 35.2rem;
+  border: 0.1rem solid var(--border-color2);
+  border-radius: 0.8rem;
+  background-color: #fff;
+}
+
+.trend-prods__imgbox {
+  padding: 2rem;
+}
+
+.trend-prods__toy-content {
+  width: 28.9rem;
+  height: 9.6rem;
+  border: 0.1rem solid var(--border-color2);
+  border-bottom: none;
+  border-radius: 0.8rem;
+  background-color: var(--bg-color1);
+}
+
+.trend-prods__toy-heading {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--lightpink-color);
+}
+
+.trendprods__toy-text {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: black;
 }
 
 /*=============== OUR OFFERS ===============*/
