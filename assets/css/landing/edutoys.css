@@ -197,27 +197,25 @@ html {
 
 .shopnow-imgs {
   height: 50rem;
-  width: 80rem;
+  width: 70rem;
   position: relative;
 }
 
 .shopnow-imgs__vector {
   position: absolute;
   width: 56rem;
-  left: 31rem;
+  left: 18.6rem;
   top: -5rem;
   z-index: -2;
-  object-fit: cover;
 }
 
 .shopnow-imgs__boys {
   position: absolute;
   width: 79rem;
   height: 51.7rem;
-  left: 0rem;
+  left: -8rem;
   top: 0rem;
   z-index: -1;
-  object-fit: cover;
 }
 /*=============== TOP PICKS ===============*/
 .toppicks {
@@ -481,17 +479,20 @@ html {
 .footer__container {
   padding-left: 14.6rem;
   padding-top: 10.2rem;
+  padding-right: 7.2rem;
+  height: 37rem;
+  display: inline-flex;
 }
 
 .footer__logo {
   width: 25.1rem;
   height: 13.5rem;
+  margin-right: 32rem;
 }
 
 .footer__menus {
   width: 64rem;
   height: 24rem;
-  margin-right: 7.2rem;
 }
 
 .footer__menu {
@@ -522,9 +523,12 @@ html {
   font-weight: 400;
   font-size: 1.6rem;
   color: var(--textlightslategray-color);
+  line-break: none;
 }
 
 .footer__text_pos {
-  margin-top: 11rem;
-  margin-left: 85.6rem;
+  margin-top: 10rem;
+  margin-bottom: 2.4rem;
+  margin-left: 98rem;
+  width: 29.3rem;
 }
