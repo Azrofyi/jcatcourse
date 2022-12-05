@@ -56,12 +56,17 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  position: relative;
 }
 
 /*=============== WRAPPER ===============*/
 .wrapper {
-  width: 122rem;
+  width: 144rem;
   margin: 0 auto;
+}
+
+.content-padding {
+  padding: 0 11rem;
 }
 
 /*=============== HEADER ===============*/
@@ -118,9 +123,9 @@ html {
 
 /*=============== SHOP NOW ===============*/
 .shopnow {
-  position: relative;
-  margin-top: 14.4rem;
-  margin-left: 21.4rem;
+  padding-top: 14.4rem;
+  padding-left: 32.4rem;
+  height: 60rem;
 }
 
 .shopnow-h1 {
@@ -139,8 +144,8 @@ html {
 .shopnow-rectangle {
   position: absolute;
   transform: none;
-  top: 0;
-  left: 0;
+  top: -1.5rem;
+  left: -2.5rem;
 }
 
 .shopnow-h2 {
@@ -187,23 +192,188 @@ html {
 }
 
 .shopnow-imgs {
-  max-width: 80rem;
 }
 
 .shopnow-imgs__vector {
   position: absolute;
-  left: 67.2rem;
-  top: 4.6rem;
-  z-index: 1;
+  width: 56rem;
+  left: 98.8rem;
+  top: 10.6rem;
+  z-index: -2;
 }
 
 .shopnow-imgs__boys {
   position: absolute;
-  left: 39.3rem;
-  top: 4.6rem;
-  z-index: 2;
+  width: 79rem;
+  height: 51.7rem;
+  left: 67.7rem;
+  top: 15.6rem;
+  z-index: -1;
 }
 /*=============== TOP PICKS ===============*/
+.toppicks {
+  padding-top: 23rem;
+  padding-bottom: 15rem;
+}
+
+.toppicks__h2 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--lightpink-color);
+  text-align: center;
+}
+
+.toppicks__h2_pos {
+  margin-bottom: 1.2rem;
+}
+
+.toppicks__h3 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: var(--textdark-color);
+  text-align: center;
+}
+
+.toppicks__h3_pos {
+  margin-bottom: 2rem;
+}
+
+.toppicks__text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--textslategray-color);
+  text-align: center;
+  width: 76.8rem;
+}
+
+.toppicks__text_pos {
+  margin-bottom: 4.8rem;
+}
+
+.toppicks__categories {
+  width: 122rem;
+}
+.toppicks__category {
+  position: relative;
+}
+
+.toppicks__vector {
+  position: relative;
+  margin-bottom: 2.2rem;
+}
+
+.toppicks__toy {
+  position: absolute;
+  top: 2.8rem;
+  left: 3.2rem;
+}
+
+.toppicks__button {
+  padding: 1rem 1.6rem;
+  border-radius: 5.2rem;
+  cursor: pointer;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.toppicks__button_green {
+  background-color: var(--btn-color3);
+}
+
+.toppicks__button_red {
+  background-color: var(--btn-color4);
+}
+
+.toppicks__button_blue {
+  background-color: var(--btn-color5);
+}
+
+.toppicks__button_pink {
+  background-color: var(--btn-color2);
+}
+
+.toppicks__button_aqua {
+  background-color: var(--btn-color6);
+}
+
 /*=============== TRENDING PRODUCTS ===============*/
+.trend-prods {
+  background-image: url(../../img/landing/trendprodbg.svg);
+  height: 96rem;
+}
+
+.trend-prods__h2 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--lightpink-color);
+}
+
+.trend-prods__h2_pos {
+  margin-top: 2.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.trend-prods__h3 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: var(--textdark-color);
+}
+
+.trend-prods__h3_pos {
+  margin-bottom: 2rem;
+}
+
+.trend-prods__text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--textslategray-color);
+  width: 76.8rem;
+}
+
+.trend-prods__btns {
+  width: 37.2rem;
+  padding: 0.4rem;
+  border: 0.1rem solid var(--border-color1);
+  background-color: var(--bg-color2);
+  margin-left: 84.6rem;
+}
+
+.trend-prods__btn {
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.trend-prods__btn_active {
+  background-color: var(--btn-color5);
+  box-shadow: 0rem 0.1rem 0.3rem rgba(16, 24, 40, 0.1),
+    0rem 0.1rem 0.2rem rgba(16, 24, 40, 0.06);
+  color: white;
+}
+
+.trend-prods__btn_nonactive {
+  color: var(--textslategray-color);
+}
+
+.trend-prods__btn_nonactive:hover {
+  background-color: hsla(196, 100%, 40%, 1);
+  box-shadow: 0rem 0.1rem 0.3rem rgba(16, 24, 40, 0.1),
+    0rem 0.1rem 0.2rem rgba(16, 24, 40, 0.06);
+  color: white;
+}
+
 /*=============== OUR OFFERS ===============*/
 /*=============== FOOTER ===============*/
