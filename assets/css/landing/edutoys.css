@@ -196,23 +196,28 @@ html {
 }
 
 .shopnow-imgs {
+  height: 50rem;
+  width: 80rem;
+  position: relative;
 }
 
 .shopnow-imgs__vector {
   position: absolute;
   width: 56rem;
-  left: 87.8rem;
-  top: 10.6rem;
+  left: 31rem;
+  top: -5rem;
   z-index: -2;
+  object-fit: cover;
 }
 
 .shopnow-imgs__boys {
   position: absolute;
   width: 79rem;
   height: 51.7rem;
-  left: 56.7rem;
-  top: 15.6rem;
+  left: 0rem;
+  top: 0rem;
   z-index: -1;
+  object-fit: cover;
 }
 /*=============== TOP PICKS ===============*/
 .toppicks {
@@ -486,7 +491,6 @@ html {
 .footer__menus {
   width: 64rem;
   height: 24rem;
-  margin-left: 32.5rem;
   margin-right: 7.2rem;
 }
 
