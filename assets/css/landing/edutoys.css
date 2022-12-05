@@ -440,6 +440,28 @@ html {
 .our-offer__menu {
   width: 46.7rem;
   height: 12.3rem;
+  padding: 2rem;
+}
+
+.our-offer__menu_orange {
+  color: var(--orange-color);
+  background-color: var(--bg-color3);
+  border: 0.1rem dashed var(--orange-color);
+  border-radius: 0.8rem;
+}
+
+.our-offer__menu_twilight {
+  color: var(--twilight-color);
+  background-color: var(--bg-color4);
+  border: 0.1rem dashed var(--twilight-color);
+  border-radius: 0.8rem;
+}
+
+.our-offer__menu_turquoise {
+  color: var(--turquoise-color);
+  background-color: var(--bg-color5);
+  border: 0.1rem dashed var(--turquoise-color);
+  border-radius: 0.8rem;
 }
 
 .our-offer__menu-img {
@@ -452,7 +474,6 @@ html {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 2.4rem;
-  color: var(--orange-color);
 }
 
 .our-offer__menu-content {
