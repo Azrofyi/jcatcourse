@@ -430,9 +430,41 @@ html {
   font-size: 2.4rem;
   color: var(--lightpink-color);
   text-align: center;
+  min-width: 122rem;
+  margin-bottom: 5rem;
 }
 
-.our-offer__heading_pos {
+.our-offer__menu {
+  width: 46.7rem;
+  height: 12.3rem;
+}
+
+.our-offer__menu-img {
+  width: 7.1rem;
+  height: 7.1rem;
+  margin-right: 1.7rem;
+}
+
+.our-offer__menu-h2 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--orange-color);
+}
+
+.our-offer__menu-content {
+  height: 5.8rem;
+}
+
+.our-offer__menu-text {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--gray-color);
+}
+
+.our-offer__bear-img {
+  width: 52rem;
 }
 
 /*=============== FOOTER ===============*/
@@ -475,6 +507,10 @@ html {
   font-weight: 500;
   font-size: 1.6rem;
   color: var(--textslategray-color);
+}
+
+.footer__link:hover {
+  text-decoration: underline;
 }
 
 .footer__text {
