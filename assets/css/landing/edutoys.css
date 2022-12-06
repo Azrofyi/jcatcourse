@@ -261,7 +261,7 @@ html {
 }
 
 .toppicks__categories {
-  width: 122rem;
+  width: 100%;
 }
 .toppicks__category {
   position: relative;
@@ -275,7 +275,6 @@ html {
 .toppicks__toy {
   position: absolute;
   top: 2.8rem;
-  left: 3.2rem;
 }
 
 .toppicks__button {
@@ -355,7 +354,6 @@ html {
   padding: 0.4rem;
   border: 0.1rem solid var(--border-color1);
   background-color: var(--bg-color2);
-  margin-left: 84.6rem;
 }
 
 .trend-prods__btn {
