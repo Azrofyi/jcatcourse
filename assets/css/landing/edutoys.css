@@ -437,6 +437,14 @@ html {
   margin-bottom: 5rem;
 }
 
+.our-offer__bear-img {
+  width: 52rem;
+}
+
+.our-offer__menus {
+  margin-left: 9.6rem;
+}
+
 .our-offer__menu {
   width: 46.7rem;
   height: 12.3rem;
@@ -485,10 +493,6 @@ html {
   font-weight: 500;
   font-size: 1.4rem;
   color: var(--gray-color);
-}
-
-.our-offer__bear-img {
-  width: 52rem;
 }
 
 /*=============== FOOTER ===============*/
