@@ -289,6 +289,10 @@ html {
   color: white;
 }
 
+.toppicks__button:hover {
+  opacity: 0.8;
+}
+
 .toppicks__button_green {
   background-color: var(--btn-color3);
 }
@@ -388,6 +392,10 @@ html {
   border: 0.1rem solid var(--border-color2);
   border-radius: 0.8rem;
   background-color: #fff;
+}
+
+.trend-prods__sale-prod:hover {
+  outline: #cdcdcd solid;
 }
 
 .trend-prods__imgbox {
