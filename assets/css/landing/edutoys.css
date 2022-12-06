@@ -509,6 +509,7 @@ html {
   width: 100%;
   height: auto;
   background-position: center;
+  background-position: 100% 0%;
 }
 
 .footer__container {
