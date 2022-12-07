@@ -78,6 +78,10 @@ html {
 .header {
   margin-top: 4rem;
 }
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
 
 .header__btns {
   width: 19rem;
@@ -128,51 +132,55 @@ html {
 
 /*=============== SHOP NOW ===============*/
 .shopnow {
-  padding-top: 14.4rem;
-  padding-left: 21.4rem;
-  height: 60rem;
+  font-size: 10px;
+}
+
+.shopnow__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 14.3em;
+  padding-left: 16.6em;
 }
 
 .shopnow-h1 {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 6.4rem;
-  color: var(--lightpink-color);
   position: relative;
+  padding-right: 3rem;
 }
 
-.shopnow-h1_transform {
-  width: 35rem;
+.shopnow-h1_style {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 6.4em;
+  color: var(--lightpink-color);
   transform: rotate(-8.72deg);
 }
 
 .shopnow-rectangle {
   position: absolute;
   transform: none;
-  top: -1.5rem;
-  left: -2.5rem;
+  top: -0.5rem;
+  left: -0.5rem;
 }
 
 .shopnow-h2 {
   font-family: var(--secondary-font);
   font-weight: 900;
-  font-size: 6.4rem;
+  font-size: 6.4em;
   color: var(--orange-color);
-  width: 42rem;
 }
 
 .shopnow-h2_pos {
-  padding-left: 7.3rem;
-  margin-top: 4.6rem;
-  margin-bottom: 5.3rem;
+  padding-top: 4.3rem;
+  padding-bottom: 5.3rem;
 }
 
 .shopnow-text {
-  width: 39rem;
   font-family: var(--secondary-font);
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2em;
   color: var(--gray-color);
+  padding-right: 3rem;
 }
 
 .shopnow-btn {
@@ -185,36 +193,25 @@ html {
   border-radius: 8px;
 }
 
-.shopnow-btn_text {
+.shopnow-btn__text {
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 1.8rem;
   color: white;
 }
 
+.shopnow-btn_pos {
+  margin-right: 23.3rem;
+}
+
 .shopnow-btn:hover {
   background-color: hsla(335, 100%, 40%, 1);
 }
 
-.shopnow-imgs {
-  height: 50rem;
-  width: 70rem;
-  position: relative;
-}
-
-.shopnow-imgs__vector {
-  position: absolute;
-  left: 18.6rem;
-  top: -5rem;
-  z-index: -2;
-}
-
 .shopnow-imgs__boys {
-  position: absolute;
-  width: 100%;
-  left: -8rem;
-  top: 0rem;
-  z-index: -1;
+  position: relative;
+  max-width: 100%;
+  height: auto;
 }
 /*=============== TOP PICKS ===============*/
 .toppicks {
@@ -579,4 +576,29 @@ html {
   padding-top: 11.4rem;
   padding-bottom: 2rem;
   margin-right: 13rem;
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .header {
+    margin-top: 2rem;
+  }
+  .content-padding {
+    padding: 0 2rem;
+  }
+  .shopnow {
+    font-size: 6px;
+  }
+  .shopnow__content {
+    padding-top: 4em;
+    padding-left: 6.6em;
+    padding-right: 2em;
+  }
+}
+
+/* `lg` applies to medium devices (tablets, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .shopnow-btn_pos {
+    margin-right: 0rem;
+  }
 }
