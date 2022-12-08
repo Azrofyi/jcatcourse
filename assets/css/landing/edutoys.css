@@ -561,7 +561,7 @@ html {
 
 .footer__menu {
   row-gap: 1.6rem;
-  width: 19.2rem;
+  max-width: 19.2rem;
   display: flex;
   flex-direction: column;
 }
@@ -675,6 +675,16 @@ html {
   .our-offer__menu {
     margin: 1rem 0;
   }
+
+  .footer__container {
+    padding-top: 4rem;
+    margin-left: 2rem;
+  }
+
+  .footer__menu {
+    margin: 3rem 0;
+  }
+
   .footer__text_pos {
     padding-top: 5.4rem;
     padding-bottom: 2rem;
