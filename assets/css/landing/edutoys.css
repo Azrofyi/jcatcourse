@@ -326,6 +326,10 @@ html {
   background-size: cover;
 }
 
+.trend-prods__container {
+  padding-bottom: 37rem;
+}
+
 .trend-prods__h2 {
   font-family: var(--primary-font);
   font-weight: 600;
@@ -652,6 +656,10 @@ html {
     margin-top: 1rem;
   }
 
+  .trend-prods__container {
+    padding-bottom: 5rem;
+  }
+
   .trend-prods__btns_pos {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -659,6 +667,10 @@ html {
 
   .trend-prods__sale-prods {
     justify-content: center;
+  }
+
+  .our-offer__container {
+    padding-top: 3rem;
   }
 
   .our-offer__menus {
