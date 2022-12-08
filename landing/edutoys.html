@@ -30,18 +30,14 @@
     <div class="wrapper">
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-        <div class="header__container content-padding">
-          <img
-            src="../assets/img/landing/etslogo.svg"
-            alt="logo"
-            class="header__logo"
-          />
-          <div class="header__btns d-flex justify-content-between">
-            <button class="header__login-btn header__login-btn_text">
+        <div class="d-flex-between content-padding header_mt">
+          <img src="../assets/img/landing/etslogo.svg" alt="logo" />
+          <div class="header__btns d-flex-between">
+            <button class="header__login-btn header__login-btn-text">
               Log in
             </button>
             <button
-              class="header__signup-btn header__signup-btn_text"
+              class="header__signup-btn header__signup-btn-text"
             >
               Sign up
             </button>
@@ -53,36 +49,30 @@
       <main class="main">
         <!--==================== SHOP NOW ====================-->
         <section class="shopnow">
-          <div
-            class="shopnow__container row row-cols-1 row-cols-md-2"
-          >
-            <div class="col">
+          <div class="row">
+            <div class="col-12 col-lg-5">
               <div class="shopnow__content">
-                <div class="shopnow-h1">
-                  <h1 class="shopnow-h1_style">Fun to care,</h1>
-                  <img
-                    src="../assets/img/landing/rectangle.svg"
-                    alt="rectangle"
-                    class="shopnow-rectangle"
-                  />
-                </div>
-                <h2 class="shopnow-h2 shopnow-h2_pos">Comfy Feel</h2>
-                <p class="shopnow-text mb-5">
+                <img
+                  src="../assets/img/landing/heading.svg"
+                  alt="rectangle"
+                  class="shopnow__heading"
+                />
+                <p class="shopnow__text shopnow__text_pos mt-3 mb-5">
                   Mauris aliquet enim quis odio lacinia, id viverra
                   elit convallis. Nunc nulla massa elit
                 </p>
                 <button
-                  class="shopnow-btn shopnow-btn__text shopnow-btn_pos"
+                  class="shopnow__btn shopnow__btn-text shopnow__btn_pos"
                 >
                   SHOP NOW
                 </button>
               </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg-7">
               <img
                 src="../assets/img/landing/2boysvector.png"
                 alt="boys"
-                class="shopnow-imgs__boys"
+                class="shopnow-img-boys"
               />
             </div>
           </div>
