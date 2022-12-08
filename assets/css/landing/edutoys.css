@@ -59,10 +59,6 @@ html {
   position: relative;
 }
 
-.mb-5rem {
-  margin-bottom: 5rem;
-}
-
 /*=============== WRAPPER ===============*/
 .wrapper {
   max-width: 144rem;
@@ -145,7 +141,7 @@ html {
 
 .shopnow-h1 {
   position: relative;
-  padding-right: 3rem;
+  padding-right: 4.9rem;
 }
 
 .shopnow-h1_style {
@@ -159,8 +155,8 @@ html {
 .shopnow-rectangle {
   position: absolute;
   transform: none;
-  top: -0.5rem;
-  left: -0.5rem;
+  top: -1.1rem;
+  left: -2.5rem;
 }
 
 .shopnow-h2 {
@@ -181,6 +177,7 @@ html {
   font-size: 2em;
   color: var(--gray-color);
   padding-right: 3rem;
+  max-width: 42rem;
 }
 
 .shopnow-btn {
@@ -201,7 +198,7 @@ html {
 }
 
 .shopnow-btn_pos {
-  margin-right: 23.3rem;
+  margin-right: 26.3rem;
 }
 
 .shopnow-btn:hover {
@@ -217,6 +214,18 @@ html {
 .toppicks {
   padding-top: 23rem;
   padding-bottom: 15rem;
+}
+
+.toppicks__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toppicks__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .toppicks__h2 {
@@ -250,7 +259,7 @@ html {
   line-height: 3rem;
   color: var(--textslategray-color);
   text-align: center;
-  width: 76.8rem;
+  max-width: 76.8rem;
 }
 
 .toppicks__text_pos {
@@ -262,6 +271,9 @@ html {
 }
 .toppicks__category {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .toppicks__vector {
@@ -311,7 +323,7 @@ html {
 /*=============== TRENDING PRODUCTS ===============*/
 .trend-prods {
   background-image: url(../../img/landing/trendprodbg.svg);
-  height: 96rem;
+  background-size: cover;
 }
 
 .trend-prods__h2 {
@@ -343,14 +355,20 @@ html {
   font-size: 2rem;
   line-height: 3rem;
   color: var(--textslategray-color);
-  width: 76.8rem;
+  max-width: 76.8rem;
 }
 
 .trend-prods__btns {
+  display: flex;
+  justify-content: space-between;
   width: 37.2rem;
   padding: 0.4rem;
   border: 0.1rem solid var(--border-color1);
   background-color: var(--bg-color2);
+}
+
+.trend-prods__btns_pos {
+  margin-bottom: 5rem;
 }
 
 .trend-prods__btn {
@@ -378,6 +396,13 @@ html {
   box-shadow: 0rem 0.1rem 0.3rem rgba(16, 24, 40, 0.1),
     0rem 0.1rem 0.2rem rgba(16, 24, 40, 0.06);
   color: white;
+}
+
+.trend-prods__sale-prods {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .trend-prods__sale-prod {
@@ -422,9 +447,9 @@ html {
 /*=============== OUR OFFER ===============*/
 .our-offer {
   background-image: url(../../img/landing/ourofferbg.svg);
-  width: 100%;
-  height: 73.6rem;
+  max-width: 100%;
   height: auto;
+  background-size: cover;
 }
 
 .our-offer__container {
@@ -442,18 +467,23 @@ html {
 }
 
 .our-offer__bear-img {
-  width: 52rem;
+  max-width: 52rem;
 }
 
 .our-offer__menus {
   margin-left: 9.6rem;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .our-offer__menu {
-  width: 46.7rem;
-  height: 12.3rem;
+  max-width: 46.7rem;
+  max-height: 12.3rem;
   padding: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .our-offer__menu_orange {
@@ -478,8 +508,8 @@ html {
 }
 
 .our-offer__menu-img {
-  width: 7.1rem;
-  height: 7.1rem;
+  max-width: 7.1rem;
+  height: auto;
   margin-right: 1.7rem;
 }
 
@@ -490,7 +520,9 @@ html {
 }
 
 .our-offer__menu-content {
-  height: 5.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .our-offer__menu-text {
@@ -503,8 +535,9 @@ html {
 /*=============== FOOTER ===============*/
 .footer {
   background: url(../../img/landing/footerbg.png) no-repeat;
-  width: 100%;
+  max-width: 100%;
   height: auto;
+  background-size: cover;
   background-position: center;
   background-position: 100% 0%;
 }
@@ -593,6 +626,59 @@ html {
     padding-top: 4em;
     padding-left: 6.6em;
     padding-right: 2em;
+  }
+
+  .shopnow-h2_pos {
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+  }
+
+  .toppicks {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .toppicks__toy {
+    position: absolute;
+    max-width: 50%;
+    top: 2.8rem;
+  }
+
+  .toppicks__vector {
+    margin-bottom: 1rem;
+  }
+
+  .toppicks__category {
+    margin-top: 1rem;
+  }
+
+  .trend-prods__btns_pos {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .trend-prods__sale-prods {
+    justify-content: center;
+  }
+
+  .our-offer__menus {
+    margin-left: 1rem;
+  }
+
+  .our-offer__menu-h2 {
+    font-size: 1.6rem;
+  }
+
+  .our-offer__menu-text {
+    font-size: 1rem;
+  }
+  .our-offer__menu {
+    margin: 1rem 0;
+  }
+  .footer__text_pos {
+    padding-top: 5.4rem;
+    padding-bottom: 2rem;
+    margin-right: 1rem;
   }
 }
 

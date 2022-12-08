@@ -29,163 +29,166 @@
     <!--==================== WRAPPER ====================-->
     <div class="wrapper">
       <!--==================== HEADER ====================-->
-      <header
-        class="header content-padding d-flex justify-content-between"
-        id="header"
-      >
-        <img
-          src="../assets/img/landing/etslogo.svg"
-          alt="logo"
-          class="header__logo"
-        />
-        <div class="header__btns d-flex justify-content-between">
-          <button class="header__login-btn header__login-btn_text">
-            Log in
-          </button>
-          <button class="header__signup-btn header__signup-btn_text">
-            Sign up
-          </button>
+      <header class="header" id="header">
+        <div class="header__container content-padding">
+          <img
+            src="../assets/img/landing/etslogo.svg"
+            alt="logo"
+            class="header__logo"
+          />
+          <div class="header__btns d-flex justify-content-between">
+            <button class="header__login-btn header__login-btn_text">
+              Log in
+            </button>
+            <button
+              class="header__signup-btn header__signup-btn_text"
+            >
+              Sign up
+            </button>
+          </div>
         </div>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
         <!--==================== SHOP NOW ====================-->
-        <section class="shopnow d-flex flex-column flex-wrap">
-          <div class="shopnow-h1">
-            <h1 class="shopnow-h1_transform">Fun to care,</h1>
-            <img
-              src="../assets/img/landing/rectangle.svg"
-              alt="rectangle"
-              class="shopnow-rectangle"
-            />
-          </div>
-          <h2 class="shopnow-h2 shopnow-h2_pos">Comfy Feel</h2>
-          <p class="shopnow-text mb-5">
-            Mauris aliquet enim quis odio lacinia, id viverra elit
-            convallis. Nunc nulla massa elit
-          </p>
-          <button class="shopnow-btn shopnow-btn_text">
-            SHOP NOW
-          </button>
-          <div class="shopnow-imgs">
-            <img
-              src="../assets/img/landing/vector.svg"
-              alt="vector"
-              class="shopnow-imgs__vector"
-            />
-            <img
-              src="../assets/img/landing/2boys.png"
-              alt="boys"
-              class="shopnow-imgs__boys"
-            />
+        <section class="shopnow">
+          <div
+            class="shopnow__container row row-cols-1 row-cols-md-2"
+          >
+            <div class="col">
+              <div class="shopnow__content">
+                <div class="shopnow-h1">
+                  <h1 class="shopnow-h1_style">Fun to care,</h1>
+                  <img
+                    src="../assets/img/landing/rectangle.svg"
+                    alt="rectangle"
+                    class="shopnow-rectangle"
+                  />
+                </div>
+                <h2 class="shopnow-h2 shopnow-h2_pos">Comfy Feel</h2>
+                <p class="shopnow-text mb-5">
+                  Mauris aliquet enim quis odio lacinia, id viverra
+                  elit convallis. Nunc nulla massa elit
+                </p>
+                <button
+                  class="shopnow-btn shopnow-btn__text shopnow-btn_pos"
+                >
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <img
+                src="../assets/img/landing/2boysvector.png"
+                alt="boys"
+                class="shopnow-imgs__boys"
+              />
+            </div>
           </div>
         </section>
 
         <!--==================== TOP PICKS ====================-->
-        <section
-          class="toppicks d-flex flex-column align-items-center"
-        >
-          <div
-            class="toppicks__content d-flex flex-column align-items-center"
-          >
-            <h2 class="toppicks__h2 toppicks__h2_pos">Top Picks</h2>
-            <h3 class="toppicks__h3 toppicks__h3_pos">
-              Shop By Category
-            </h3>
-            <p class="toppicks__text toppicks__text_pos">
-              Contrary to popular belief, Lorem Ipsum is not simply
-              random text. It has roots in a piece of classical Latin
-              literature from 45 BC, making it over 2000 years old.
-            </p>
-          </div>
-          <div
-            class="toppicks__categories row row-cols-2 row-cols-md-5"
-          >
-            <div
-              class="toppicks__category d-flex flex-column align-items-center"
-            >
-              <img
-                src="../assets/img/landing/doronganvector.svg"
-                alt="dorongan"
-                class="toppicks__vector"
-              />
-              <img
-                src="../assets/img/landing/dorongantoy.png"
-                alt="dorongan"
-                class="toppicks__toy"
-              />
-              <button class="toppicks__button toppicks__button_green">
-                Dorongan
-              </button>
+        <section class="toppicks">
+          <div class="toppicks__container">
+            <div class="toppicks__content">
+              <h2 class="toppicks__h2 toppicks__h2_pos">Top Picks</h2>
+              <h3 class="toppicks__h3 toppicks__h3_pos">
+                Shop By Category
+              </h3>
+              <p class="toppicks__text toppicks__text_pos">
+                Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years
+                old.
+              </p>
             </div>
             <div
-              class="toppicks__category d-flex flex-column align-items-center"
+              class="toppicks__categories row row-cols-2 row-cols-md-5"
             >
-              <img
-                src="../assets/img/landing/bonekavector.svg"
-                alt="dorongan"
-                class="toppicks__vector"
-              />
-              <img
-                src="../assets/img/landing/bonekatoy.png"
-                alt="dorongan"
-                class="toppicks__toy"
-              />
-              <button class="toppicks__button toppicks__button_red">
-                Boneka
-              </button>
-            </div>
-            <div
-              class="toppicks__category d-flex flex-column align-items-center"
-            >
-              <img
-                src="../assets/img/landing/mobilanvector.svg"
-                alt="dorongan"
-                class="toppicks__vector"
-              />
-              <img
-                src="../assets/img/landing/mobilantoy.png"
-                alt="dorongan"
-                class="toppicks__toy"
-              />
-              <button class="toppicks__button toppicks__button_blue">
-                Mobilan
-              </button>
-            </div>
-            <div
-              class="toppicks__category d-flex flex-column align-items-center"
-            >
-              <img
-                src="../assets/img/landing/puzzlevector.svg"
-                alt="dorongan"
-                class="toppicks__vector"
-              />
-              <img
-                src="../assets/img/landing/puzzletoy.png"
-                alt="dorongan"
-                class="toppicks__toy"
-              />
-              <button class="toppicks__button toppicks__button_pink">
-                Puzzle
-              </button>
-            </div>
-            <div
-              class="toppicks__category d-flex flex-column align-items-center"
-            >
-              <img
-                src="../assets/img/landing/populervector.svg"
-                alt="dorongan"
-                class="toppicks__vector"
-              />
-              <img
-                src="../assets/img/landing/horsetoy.png"
-                alt="dorongan"
-                class="toppicks__toy"
-              />
-              <button class="toppicks__button toppicks__button_aqua">
-                Populer
-              </button>
+              <div class="toppicks__category">
+                <img
+                  src="../assets/img/landing/doronganvector.svg"
+                  alt="dorongan"
+                  class="toppicks__vector"
+                />
+                <img
+                  src="../assets/img/landing/dorongantoy.png"
+                  alt="dorongan"
+                  class="toppicks__toy"
+                />
+                <button
+                  class="toppicks__button toppicks__button_green"
+                >
+                  Dorongan
+                </button>
+              </div>
+              <div class="toppicks__category">
+                <img
+                  src="../assets/img/landing/bonekavector.svg"
+                  alt="dorongan"
+                  class="toppicks__vector"
+                />
+                <img
+                  src="../assets/img/landing/bonekatoy.png"
+                  alt="dorongan"
+                  class="toppicks__toy"
+                />
+                <button class="toppicks__button toppicks__button_red">
+                  Boneka
+                </button>
+              </div>
+              <div class="toppicks__category">
+                <img
+                  src="../assets/img/landing/mobilanvector.svg"
+                  alt="dorongan"
+                  class="toppicks__vector"
+                />
+                <img
+                  src="../assets/img/landing/mobilantoy.png"
+                  alt="dorongan"
+                  class="toppicks__toy"
+                />
+                <button
+                  class="toppicks__button toppicks__button_blue"
+                >
+                  Mobilan
+                </button>
+              </div>
+              <div class="toppicks__category">
+                <img
+                  src="../assets/img/landing/puzzlevector.svg"
+                  alt="dorongan"
+                  class="toppicks__vector"
+                />
+                <img
+                  src="../assets/img/landing/puzzletoy.png"
+                  alt="dorongan"
+                  class="toppicks__toy"
+                />
+                <button
+                  class="toppicks__button toppicks__button_pink"
+                >
+                  Puzzle
+                </button>
+              </div>
+              <div class="toppicks__category">
+                <img
+                  src="../assets/img/landing/populervector.svg"
+                  alt="dorongan"
+                  class="toppicks__vector"
+                />
+                <img
+                  src="../assets/img/landing/horsetoy.png"
+                  alt="dorongan"
+                  class="toppicks__toy"
+                />
+                <button
+                  class="toppicks__button toppicks__button_aqua"
+                >
+                  Populer
+                </button>
+              </div>
             </div>
           </div>
         </section>
@@ -206,9 +209,7 @@
               </p>
             </div>
             <div class="d-flex flex-row-reverse">
-              <div
-                class="trend-prods__btns d-flex justify-content-between mb-5rem"
-              >
+              <div class="trend-prods__btns trend-prods__btns_pos">
                 <button
                   class="trend-prods__btn trend-prods__btn_active"
                 >
@@ -226,9 +227,7 @@
                 </button>
               </div>
             </div>
-            <div
-              class="trend-prods__sale-prods d-flex justify-content-between"
-            >
+            <div class="trend-prods__sale-prods">
               <a
                 href="#"
                 class="trend-prods__sale-prod d-flex flex-column align-items-center justify-content-between"
@@ -320,21 +319,17 @@
                 class="our-offer__bear-img"
               />
               <div class="col">
-                <div
-                  class="our-offer__menus d-flex flex-column justify-content-evenly"
-                >
+                <div class="our-offer__menus">
                   <a
                     href="#"
-                    class="our-offer__menu our-offer__menu_orange d-flex align-items-center"
+                    class="our-offer__menu our-offer__menu_orange"
                   >
                     <img
                       src="../assets/img/landing/newborn.png"
                       alt="#"
                       class="our-offer__menu-img"
                     />
-                    <div
-                      class="our-offer__menu-content d-flex flex-column justify-content-between"
-                    >
+                    <div class="our-offer__menu-content">
                       <h3 class="our-offer__menu-h2">
                         New Born & Baby Care Shop
                       </h3>
@@ -345,16 +340,14 @@
                   </a>
                   <a
                     href="#"
-                    class="our-offer__menu our-offer__menu_twilight d-flex align-items-center"
+                    class="our-offer__menu our-offer__menu_twilight"
                   >
                     <img
                       src="../assets/img/landing/toddlers.png"
                       alt="#"
                       class="our-offer__menu-img"
                     />
-                    <div
-                      class="our-offer__menu-content d-flex flex-column justify-content-between"
-                    >
+                    <div class="our-offer__menu-content">
                       <h3 class="our-offer__menu-h2">
                         Toddlers Clothing
                       </h3>
@@ -365,16 +358,14 @@
                   </a>
                   <a
                     href="#"
-                    class="our-offer__menu our-offer__menu_turquoise d-flex align-items-center"
+                    class="our-offer__menu our-offer__menu_turquoise"
                   >
                     <img
                       src="../assets/img/landing/toysandgames.png"
                       alt="#"
                       class="our-offer__menu-img"
                     />
-                    <div
-                      class="our-offer__menu-content d-flex flex-column justify-content-between"
-                    >
+                    <div class="our-offer__menu-content">
                       <h3 class="our-offer__menu-h2">
                         Toys and Games
                       </h3>
@@ -392,7 +383,7 @@
       <!--==================== FOOTER ====================-->
       <footer class="footer">
         <div
-          class="footer__container container row row-cols-1 row-cols-sm-2 row-cols-md-5"
+          class="footer__container row row-cols-1 row-cols-sm-2 row-cols-md-5"
         >
           <div class="col">
             <img
