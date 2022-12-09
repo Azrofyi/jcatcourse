@@ -68,6 +68,22 @@ img {
   padding: 0 11rem;
 }
 
+.heading {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--lightpink-color);
+  text-align: center;
+}
+
+.subheading {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: var(--textdark-color);
+  text-align: center;
+}
+
 /*==================== LAYOUT ====================*/
 .d-flex-between {
   display: flex;
@@ -149,6 +165,10 @@ img {
   font-size: 10px;
 }
 
+.shopnow__container {
+  margin: 0 0.75rem;
+}
+
 .shopnow__content {
   display: flex;
   flex-direction: column;
@@ -209,42 +229,6 @@ img {
   padding-bottom: 15rem;
 }
 
-.toppicks__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.toppicks__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.toppicks__h2 {
-  font-family: var(--primary-font);
-  font-weight: 600;
-  font-size: 1.6rem;
-  color: var(--lightpink-color);
-  text-align: center;
-}
-
-.toppicks__h2_pos {
-  margin-bottom: 1.2rem;
-}
-
-.toppicks__h3 {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 3.6rem;
-  color: var(--textdark-color);
-  text-align: center;
-}
-
-.toppicks__h3_pos {
-  margin-bottom: 2rem;
-}
-
 .toppicks__text {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -262,6 +246,7 @@ img {
 .toppicks__categories {
   width: 100%;
 }
+
 .toppicks__category {
   position: relative;
   display: flex;
@@ -323,29 +308,6 @@ img {
   padding-bottom: 37rem;
 }
 
-.trend-prods__h2 {
-  font-family: var(--primary-font);
-  font-weight: 600;
-  font-size: 1.6rem;
-  color: var(--lightpink-color);
-}
-
-.trend-prods__h2_pos {
-  margin-top: 2.8rem;
-  margin-bottom: 1.2rem;
-}
-
-.trend-prods__h3 {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 3.6rem;
-  color: var(--textdark-color);
-}
-
-.trend-prods__h3_pos {
-  margin-bottom: 2rem;
-}
-
 .trend-prods__text {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -356,8 +318,6 @@ img {
 }
 
 .trend-prods__btns {
-  display: flex;
-  justify-content: space-between;
   width: 37.2rem;
   padding: 0.4rem;
   border: 0.1rem solid var(--border-color1);
@@ -542,7 +502,6 @@ img {
 .footer__container {
   padding-top: 10.2rem;
   margin-left: 10rem;
-  margin-right: 1.5rem;
 }
 
 .footer__logo {
